@@ -40,12 +40,11 @@
   }
   .input {
     width: 15rem;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 290px) {
   .input {
     width: 10rem;
-    margin-left: 15%;
   }
 }
