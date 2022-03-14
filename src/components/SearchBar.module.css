@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+}
+.input {
+  padding: 10px;
+  border-radius: 15px;
+  height: 32px;
+  width: 280px;
+  border: none;
+}
+
+.boton {
+  background-color: rgb(9, 12, 180);
+  border-radius: 15px;
+  border: black solid 1px;
+  color: white;
+  height: 32px;
+  width: 5rem;
+  margin-left: 2rem;
+}
+
+.boton:hover {
+  background-color: rgb(9, 10, 100);
+}
+@media only screen and (max-width: 800px) {
+  .form {
+    width: 100%;
+  }
+  .input {
+    width: 20rem;
+    margin-left: 25%;
+  }
+  .boton {
+    margin-left: 0.5rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .form {
+    width: auto;
+  }
+  .input {
+    width: 15rem;
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .input {
+    width: 10rem;
+    margin-left: 15%;
+  }
+}
