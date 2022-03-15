@@ -28,19 +28,19 @@
   }
   .input {
     width: 20rem;
-    margin-left: 25%;
+    margin-left: 20%;
   }
   .boton {
     margin-left: 0.5rem;
   }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .form {
     width: auto;
   }
   .input {
-    width: 15rem;
-    margin-left: 10%;
+    width: 12rem;
+    margin-left: 9%;
   }
 }
 @media only screen and (max-width: 290px) {
