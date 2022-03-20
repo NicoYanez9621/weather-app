@@ -1,4 +1,4 @@
-## Henry Weather
+## Weather App
 
 ### Instrucciones para correr el proyecto
 
@@ -22,18 +22,14 @@ No es necesario volver a correr el proyecto cada vez que se realice un cambio si
 
 2. Adicionalmente a los componentes que ya teníamos vamos a tener que crear otro denominado `Nav` que va a ser nuestra barra superior de navegación en la cual debemos incluir el componente `SearchBar`. Escribir el código correspondiente en `components/Nav.jsx`. Pueden utilizar como base los [navbars ya definidos de Bootstrap](https://getbootstrap.com/docs/4.4/components/navbar/). El resultado debería ser similar a lo siguiente:
 
-<p align="center">
-  <img src="./img-screen/nav.png" alt="Gif" />
-</p>
+
 
 * __Recuadro rojo__: Nav
 * __Recuadro verde__: SearchBar
 
 Ahora que ya tenemos cada una de las partes de nuestra aplicación procedamos a unirlas. Para ello veamos una imagen del resultado final y pensemos la estrucutra general:
 
-<p align="center">
-  <img src="./img-screen/componentes.png" alt="Gif" />
-</p>
+
 
   * __Recuadro rojo__: Nav
   * __Recuadro amarillo__: SearchBar
@@ -65,9 +61,7 @@ import Cards from './components/Cards.jsx';
 
 Inicialmente si nuestro componente Cards no está recibiendo datos de ciudades la aplicación se vería de la siguiente forma (Pueden si quieren al igual que realizamos en el ejercicio anterior importar los datos de ejemplo `data.js` y pasárselos como parámetro para verificar su funcionamiento):
 
-<p align="center">
-  <img src="./img-screen/barra-busqueda.png" alt="Gif" />
-</p>
+
 
 *Observen que dentro del componente Cards se está verificando si está recibiendo las cities como prop o no, en el caso de que no las reciba devuelve un mensaje avisando para evitar que surja un error al intentar realizar el map sobre el array vacio*
 
@@ -234,14 +228,4 @@ __IMPORTANTE__: Para poder realizar las llamadas a la API es necesario contar co
     ...
 
 ```
-Muestra final de la aplicación funcionando:
 
-<p align="center">
-  <img src="./img-screen/agregar-ciudad.gif" alt="Gif" />
-</p>
-
-<p align="center">
-  <img src="./img-screen/borrar-ciudad.gif" alt="Gif" />
-</p>
-
-![Alt](./img-screen/tarjetas-iconos.png)
